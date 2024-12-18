@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CookAlong - Virtual Cooking Classes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CookAlong</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Classes</a>
+                <a href="#">Feedback</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <h2>Join Our Live Cooking Classes</h2>
+            <p>Learn from expert chefs in the comfort of your home. Join live sessions or watch recorded classes at your convenience.</p>
+            <a href="#class-list" class="cta-btn">Explore Classes</a>
+        </section>
+
+        <section id="class-list" class="class-list">
+            <h2>Upcoming & Recorded Classes</h2>
+            <div class="class-cards-container">
+                <!-- Dynamic class cards will be loaded here -->
+            </div>
+        </section>
+
+        <section class="feedback">
+            <h2>We'd love your feedback!</h2>
+            <textarea id="feedback" placeholder="Enter your feedback here..." rows="5"></textarea>
+            <button id="submit-feedback" class="submit-btn">Submit Feedback</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 CookAlong. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
